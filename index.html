@@ -1,138 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+    <head>
+        <title>Learnloot</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href"./css/style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
 
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+        <div class="header">
+            <h1>My Website</h1>
+            <p>A <b>responsive</b> website created by me.</p>
+        </div>
 
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #293241;
-  color: white;
-}
+        <article>
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <br />
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </article>
 
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-nav {
-  width: 25%;
-  height: 90%;
-  position: fixed;
-  height: 100%;
-  overflow: hidden;
-  background-color: #EE6C4D;
-  top: 0;
-}
-
-nav, nav > ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav > ul {
-  list-style-type: none;
-}
-
-/* Style the navigation bar links */
-nav a {
-  display: block;
-  color: white;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Active/current link */
-nav a.active {
-  background-color: #3D5A80;
-  color: white;
-}
-
-
-/* Main column */
-article {   
-  width: 75%;
-  background-color: white;
-  padding: 20px;
-  float: right;
-}
-
-/* Footer */
-footer {
-  height: 10%;
-  padding: 20px;
-  width: 75%;
-  text-align: center;
-  background: #3D5A80;
-  color: white;
-  float: right;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body>
-
-<nav><ul>
-  <li><a href="#" class="active">Home</a></li>
-  <li><a href="#">Link</a></li>
-  <li><a href="#">Link</a></li>
-  <li><a href="#">Link</a></li>
-</ul></nav>
-
-<div class="header">
-  <h1>My Website</h1>
-  <p>A <b>responsive</b> website created by me.</p>
-</div>
-
-<article>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-</article>
-
-<footer>
-  <h2>Footer</h2>
-</footer>
-
-</body>
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+    </body>
 </html>
