@@ -5,8 +5,9 @@ body {
   margin: 0;
 }
 
-/* Header/logo Title */
+/* Banner */
 #banner {
+  width: 75%;
   margin-left: 25%;
 }
 
