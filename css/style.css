@@ -18,10 +18,9 @@ body {
   font-size: 40px;
 }
 
-/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+/* Navbar */
 nav {
   width: 25%;
-  height: 90%;
   position: fixed;
   height: 100%;
   overflow: hidden;
@@ -65,6 +64,7 @@ article {
   background-color: white;
   padding: 20px;
   float: right;
+  margin-left: 25%;
 }
 
 /* Footer */
