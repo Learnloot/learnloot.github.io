@@ -6,11 +6,8 @@ body {
 }
 
 /* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #293241;
-  color: white;
+#header {
+  margin-left: 25%;
 }
 
 /* Increase the font size of the heading */
