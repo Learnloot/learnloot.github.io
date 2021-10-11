@@ -3,6 +3,15 @@ body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  /* to make the footer work */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer */
+footer {
+ margin-top: auto;
 }
 
 /* Banner */
