@@ -9,11 +9,6 @@ body {
   flex-direction: column;
 }
 
-/* Footer */
-footer {
- margin-top: auto;
-}
-
 /* Banner */
 #banner {
   margin-left: 25%;
@@ -76,7 +71,6 @@ article {
 footer {
   height: 10%;
   padding: 20px;
-  width: 75%;
   text-align: center;
   background: #3D5A80;
   color: white;
