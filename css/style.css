@@ -44,6 +44,10 @@ nav a {
   width: fit-content;
 }
 
+nav li {
+  float: left;
+}
+
 nav a:hover {
   background-color: #ddd;
   color: black;
