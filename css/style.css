@@ -21,8 +21,7 @@ body {
 
 /* Navbar */
 nav {
-  width: 25%;
-  height: 100%;
+  width: 100%;
   overflow: hidden;
   background-color: #EE6C4D;
 }
@@ -61,7 +60,6 @@ nav a.active {
 article {   
   background-color: white;
   padding: 20px;
-  margin-left: 25%;
   text-align: center;
 }
 
