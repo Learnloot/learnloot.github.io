@@ -22,11 +22,9 @@ body {
 /* Navbar */
 nav {
   width: 25%;
-  position: fixed;
   height: 100%;
   overflow: hidden;
   background-color: #EE6C4D;
-  top: 0;
 }
 
 nav, nav > ul {
