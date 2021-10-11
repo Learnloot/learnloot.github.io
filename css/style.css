@@ -41,6 +41,7 @@ nav a {
   color: white;
   padding: 8px 16px;
   text-decoration: none;
+  width: fit-content;
 }
 
 nav a:hover {
