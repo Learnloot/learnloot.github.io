@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "This is what's up with Learnloot this week"
+date:   2021-10-11 11:43:00 -0700
+categories: update
+---
+Lately, we've been working on expanding our team slightly so that we can complete our game faster. Specifically, we've been recruiting:
+* A Social Media Manager
+* Another artist
+* Another storyline writer
+
+Furthermore, we've been developing final art concepts of our characters. We've complete the majority of the game's storyline.
+
+We even posted [a hint on Twitter](https://twitter.com/LearnlootEdu/status/1447310982745935880) showing a sillouete and the backstory of one of our in-game characters.
+
+Additionally, we've been working on our social media strategy. We've explored tools such as [Buffer](https://buffer.com/) for our social media plans.
+
+The last thing we've done this week has been expanding our website with features such as this blog! We've also completely re-coded the back-end of the site (if you didn't know, our website is [open-source](https://github.com/Learnloot/learnloot.github.io)).
+
+We'll see you some time next week with our next weekly update! We always link to these updates on [our twitter](https://twitter.com/LearnlootEdu) and will continue doing this until we have some form of an email newsletter system.
