@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article>
+  <h1>Learnloot: A math game</h1>
+  <h2>But a lot more...</h2>
+  <p>What sets apart from so many math games on the market is that we make our money <b>without</b> putting gameplay and education behind a paywall.
+  <br/><br/>
+  We're entirely <b>open-source</b> and we're <b>led by students</b> that are trying to revolutinize online learning.
+  <br/><br/>
+  We are currently in the process of developing our final art and code. Our storyline and concept art is mostly complete.
+  <br/><br/>
+  <a href="https://gofundme.com/f/learnloot"><button>Donate</button></a>          
+  <a href="https://twitter.com/@LearnlootEdu"><button>Follow our Twitter</button></a>
+
+  <h2>News</h2>
+  <div class="posts">
+    {% assign posts = site.posts %}
+    {% for post in posts %}
+      <div class="post">
+        <h3 class="post-title">
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+        </h3>
+            
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
+            
+      <p class="post-excerpt">
+        {% if post.description %}
+          {{ post.description | strip_html }}
+        {% else %}
+          {{ post.excerpt | strip_html }}
+        {% endif %}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+    
+</article>
