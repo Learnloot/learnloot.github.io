@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "This is what's up with Learnloot this week"
-date:   2021-10-11 11:43:00 -0700
+date:   2021-10-12 11:43:00 -0700
 categories: update
 ---
 Lately, we've been working on expanding our team slightly so that we can complete our game faster. Specifically, we've been recruiting:

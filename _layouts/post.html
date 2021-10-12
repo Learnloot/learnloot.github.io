@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article>
+<article class="postArticle">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-meta">
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -69,6 +69,7 @@ layout: default
   {% endif %}
 </article>
 
+<hr/>
 {% if site.related_posts != empty %}
   <aside class="related">
     <h2 class="related-title">Related posts</h2>

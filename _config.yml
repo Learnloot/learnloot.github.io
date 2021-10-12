@@ -33,7 +33,6 @@ plugins:
   - jekyll-feed
 
 # Repository shit
-
 repository: learnloot/learnloot.github.io
 
 # Exclude from processing.
