@@ -32,7 +32,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-repository: learnloot/learnloot.githubu.io
+repository: learnloot/learnloot.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default.

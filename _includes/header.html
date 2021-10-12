@@ -1,6 +1,11 @@
 <nav>
   <ul>
-    <li><a href="https://learnloot.github.io">Home</a></li>
-    <li><a href="https://learnloot.github.io/blog" class='active'>Blog</a></li>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}">
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>
