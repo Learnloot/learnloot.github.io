@@ -3,7 +3,7 @@ layout: post
 title:  "December 17th: Art AND Code!!"
 date:   2021-12-17 15:08:30 -0700
 permalink: december-17
-author: Connor
+author: Learnloot
 ---
 Lately, we've developed more art AND more code.
 

@@ -3,8 +3,10 @@ layout: post
 title:  "This is what's up with Learnloot this week"
 date:   2021-10-12 11:43:00 -0700
 permalink: this-week-1
-author: Connor
+author: Learnloot
 ---
+
+<i>Note on 3/8/2022: A typo has been corrected.</i>
 
 Lately, we've been working on expanding our team slightly so that we can complete our game faster. Specifically, we've been recruiting:
 * A Social Media Manager
@@ -13,7 +15,7 @@ Lately, we've been working on expanding our team slightly so that we can complet
 
 Furthermore, we've been developing final art concepts of our characters. We've complete the majority of the game's storyline.
 
-We even posted [a hint on Twitter](https://twitter.com/LearnlootEdu/status/1447310982745935880) showing a sillouete and the backstory of one of our in-game characters.
+We even posted [a hint on Twitter](https://twitter.com/LearnlootEdu/status/1447310982745935880) showing a silhouette and the backstory of one of our in-game characters.
 
 Additionally, we've been working on our social media strategy. We've explored tools such as [Buffer](https://buffer.com/) for our social media plans.
 

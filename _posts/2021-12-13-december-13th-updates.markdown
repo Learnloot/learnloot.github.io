@@ -3,10 +3,12 @@ layout: post
 title:  "December 13th: Lots of Art!"
 date:   2021-12-13 15:10:00 -0700
 permalink: december-13
-author: Connor
+author: Learnloot
 ---
 
-We're starting <a href="https://www.youtube.com/channel/UC9KU-OirWejEVbMYcYN3fZw">a YouTube channel</a> for something awesomes now!
+<i>Note on 3/8/2022: A typo has been corrected.</i>
+
+We're starting <a href="https://www.youtube.com/channel/UC9KU-OirWejEVbMYcYN3fZw">a YouTube channel</a> for our awesome stuff now!
 
 On our YouTube we post recordings of us making game art as well as recordings of us developing game content.
 

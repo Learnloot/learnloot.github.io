@@ -3,7 +3,7 @@ layout: post
 title:  "Learnloot's December 7th Updates"
 date:   2021-12-7 00:00:00 -0700
 permalink: december-7
-author: Connor
+author: Learnloot
 ---
 Hey everybody!
 
@@ -19,7 +19,7 @@ Also, we shared on <a href="https://learnloot.tumblr.com/">our Tumblr</a> about 
 
  <div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/-N1SdgQVU4vaCSVh1kbehQ/669939702782214144" data-did="410772d02feef0bb2738b8647712c70745111e91"><a href="https://learnloot.tumblr.com/post/669939702782214144/heres-a-concept-of-learnloots-more-childish-art">https://learnloot.tumblr.com/post/669939702782214144/heres-a-concept-of-learnloots-more-childish-art</a></div>  <script async src="https://assets.tumblr.com/post.js"></script>
 
-Another thing we plan to post on our Twitter is that we've successfuly raised $76.95 out of $500 for our game development costs. Thank you so much! 
+Another thing we plan to post on our Twitter is that we've sucessfully raised $76.95 out of $500 for our game development costs. Thank you so much! 
 
 We've received $20 on GoFundMe, $6.95 from our team members, and $50 in-person - thank you. :)
 
