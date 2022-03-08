@@ -1,0 +1,19 @@
+<nav>
+  <img src="/assets/Learnloot Logo.png" alt='Learnloot logo' style="float: left; cursor: pointer;" width="30%" height="30%" onclick="location.href = location.origin">
+  <ul>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %} {% if item.posts %} {% if page.path contains "_posts" %} active {% endif %} {% endif %}">
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <br/>
+</nav>
+<!-- decorative thing, like an <hr> -->
+<div style="
+  background: linear-gradient(342deg,#E0FBFC 23%, rgba(238,108,77,1) 23%, rgba(238,108,77,1) 100%);
+  border-bottom: 3px solid #E0FBFC;
+  "
+  aria-hidden="true">&nbsp;</div>

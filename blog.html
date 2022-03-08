@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article>
+  <h1>Learnloot News</h1>
+
+  <div class="posts">
+    {% assign posts = site.posts %}
+    {% for post in posts %}
+      <div class="post">
+        <h3 class="post-title">
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+        </h3>
+            
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
+            
+      <p class="post-excerpt">
+        {% if post.description %}
+          {{ post.description | strip_html }}
+        {% else %}
+          {{ post.excerpt | strip_html }}
+        {% endif %}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+    
+</article>

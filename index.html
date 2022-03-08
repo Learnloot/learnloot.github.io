@@ -1,0 +1,71 @@
+---
+layout: default
+title: A math game by students, for students | 
+permalink: /
+---
+<style>
+    body, article {
+      margin: 0;
+      padding: 0;
+    }
+</style>
+  <article>
+    <div 
+      id="homeBanner"
+    >
+    <p style="
+      color: white; 
+      font-size: 17px;
+      margin: 0;
+      padding: 0;
+      ">
+      <blockquote>
+        I've been <strong style="font-size: 20px;">dreaming</strong> of a day when we'd live in a world where <strong style="font-size: 20px;">gamified learning</strong> becomes the trend for <strong style="font-size: 20px;">educational systems</strong>. 
+        <span class="author"><i><a href="https://www.reddit.com/user/Melodic_Flight/">u/Melodic_Flight</a></i></span>
+      </blockquote>
+    </p>
+    </div>
+    <h2 style="background-color: #E0FBFC; padding: 1%; margin: 0; color: rgb(61,90,128);">WHAT WE DO</h2>
+    <p style="font-size: 25px;">We help disengaged students learn academics, assisting with their <strong>educational success</strong>.</p>
+    <h2 style="background-color: #E0FBFC; padding: 1%; margin: 0; color: rgb(61,90,128);">OUR COMMITMENT</h2>
+    <div style="display: grid; text-align: auto; grid-gap: 0 35px; grid-template-columns: auto auto auto;">
+    <div style="text-align: right;">
+    We're entirely <strong>open-source</strong> and <strong>led by students</strong>
+    <br/><br/>
+    All paid game content will be 100% cosmetic - no gameplay is restricted by any form of paywall.
+    <br/><br/>
+    Our game is currently in the process of development. Updates are available on this website and our Twitter.
+    <br/><br/>
+    </div>
+    <div style="text-align: left;">
+    <a href="https://gofundme.com/f/learnloot"><button style="font-size: 1.2em; margin-bottom: 10px;">Donate</button></a>  
+    <a href="https://twitter.com/@LearnlootEdu"><button style="font-size: 1.2em;">Follow our Twitter</button></a>
+    </div>
+    </div>
+
+    <h2>News</h2>
+    <div class="posts">
+      {% assign posts = site.posts %}
+      {% for post in posts %}
+        <div class="post">
+          <h3 class="post-title">
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+          </h3>
+              
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
+              
+        <p class="post-excerpt">
+          {% if post.description %}
+            {{ post.description | strip_html }}
+          {% else %}
+            {{ post.excerpt | strip_html }}
+          {% endif %}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+      
+  </article>
+  

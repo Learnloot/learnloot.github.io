@@ -1,0 +1,211 @@
+/* Style the body */
+body {
+  box-sizing: border-box;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+  margin: 0;
+  /* to make the footer work */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  overflow: hidden;
+  background-color: #EE6C4D;
+}
+
+nav,
+nav>ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+nav>ul {
+  list-style-type: none;
+  width: fit-content;
+  display: inline;
+  margin-left: 2%;
+  font-size: larger;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #3D5A80;
+  color: white;
+}
+
+/* Main */
+article,
+.related {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.related {
+  text-align: left;
+}
+
+#homeBanner {
+  background: rgb(61,90,128);
+  background: linear-gradient(342deg, rgba(61,90,128,1) 23%, rgba(238,108,77,1) 63%, rgba(238,108,77,1) 100%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #3D5A80;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/** Posts **/
+/* Post list */
+.posts {
+  margin-top: 20px;
+}
+
+.post {
+  width: calc(100% - 60px);
+  margin: 10px;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #EE6C4D;
+  color: white;
+  padding: 20px;
+}
+
+.post a {
+  color: #3D5A80;
+}
+
+/* Posts themselves */
+.post-categories {
+  list-style-type: none;
+}
+
+.post-categories-section,
+.post-categories,
+.post-categories li,
+.post-category {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.postArticle {
+  text-align: center;
+}
+
+.postArticle ul {
+  list-style-position: inside;
+}
+
+/* Footer */
+footer {
+  height: 10%;
+  padding: 20px;
+  width: calc(100% - 40px);
+  /* 100% - (padding * 2) is how you fill the entire width without it overflowing */
+  background: #3D5A80;
+  color: white;
+  margin-top: auto;
+}
+
+/* Quotes */
+blockquote {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+blockquote span.author {
+  position: relative;
+  display: block;
+  text-align: right;
+  color: white;
+}
+
+blockquote span.author i > a {
+  color: white;
+  text-decoration: underline;
+}
+
+blockquote span.author::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  z-index: 1;
+}
+
+blockquote::before {
+  display: block;
+  position: absolute;
+  margin-left: -3%;
+  margin-top: -1%;
+  content: "\"";
+  font-size: 50px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+      flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+      float: none;
+      width: 100%;
+  }
+}

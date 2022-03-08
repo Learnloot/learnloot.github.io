@@ -1,0 +1,5 @@
+- title: Home
+  url: /
+- title: News
+  url: /blog.html
+  posts: true
