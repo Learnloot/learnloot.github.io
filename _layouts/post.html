@@ -15,15 +15,6 @@ layout: default
         {{ mdate | date_to_string }}
       </time>
     {%- endif -%}
-    {%- if page.author -%}
-      <span> • Written by </span>
-      {% for author in page.author %}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          {{ author }}
-        </span>
-        {%- if forloop.last == false %}, {% endif -%}
-      {% endfor %}
-    {%- endif -%}
   </div>
 
   {{ content }}
